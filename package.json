@@ -27,10 +27,11 @@
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "4.11.1",
     "socket.io-client": "^4.7.5"
+  },
+  "overrides": {
+    "expo-router": {
+      "react": "19.0.0",
+      "react-native": "0.79.5"
+    }
   }
-}
-"overrides": {
-  "react": "19.0.0",
-  "react-dom": "19.0.0",
-  "react-native": "0.79.5"
 }
