@@ -1,0 +1,59 @@
+# --- OS / éditeurs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# --- Node / JS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.eslintcache
+.cache/
+.tmp/
+
+# --- Expo / RN ---
+.expo/
+.expo-shared/
+.expo-cache/
+.expo-dev-cache/
+web-build/
+dist/
+*.expo/
+*.packager
+*.hprof
+
+# Metro bundler
+.metro-cache/
+
+# --- iOS ---
+ios/Pods/
+ios/build/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+DerivedData/
+
+# --- Android ---
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/build/
+android/build/
+
+# --- Artifacts / builds ---
+*.apk
+*.aab
+*.ipa
+*.app.dSYM.zip
+*.map
+*.log
+
+# --- Env & secrets (si tu en utilises côté front) ---
+.env
+.env.*.local
